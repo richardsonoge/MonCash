@@ -39,7 +39,7 @@ $path = 'https://sandbox.moncashbutton.digicelgroup.com/Api/v1/Transfert';
 
 $data = json_encode([
     "amount"  => 100,
-    "receiver"  => 36043882,
+    "receiver"  => 50937007294,
     "desc" => 'Hello word'
 ]);
 

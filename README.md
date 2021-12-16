@@ -98,4 +98,47 @@ Response
  "status": 200
 }
 ```
+ # Sample Capture payment by order Id
+  **POST** : /v1/RetrieveOrderPayment
  
+ ```
+ Request
+curl -X POST http://HOST_REST_API/v1/RetrieveOrderPayment -H 'accept: application/json' -H
+'authorization: Bearer <Access-token> ' -H 'content-type: application/json' -d '{ " orderId": < orderId>}'
+Response
+{
+ "path": "/v1/RetrieveOrderPayment ",
+ "payment": {
+ "reference": "1559796839",
+ "transaction_id": "12874820",
+ "cost": 10,
+ "message": "successful",
+ "payer": "50937007294"
+ },
+ "timestamp": 1560029360970,
+ "status": 200
+}
+```
+ 
+ # Sample Create Payment
+ **POST** : /v1/Transfert
+ 
+ ```
+ Request
+curl -X POST https://HOST_REST_API/v1/Transfert -H 'accept: application/json' -H 'authorization: Bearer
+<Access-token> ' -H 'content-type: application/json' -d '{"amount": <amount>, "receiver ": <Receive
+Account>, "desc": <Some description>}'
+Response
+{
+ "path": "/Api/v1/Transfert",
+ "transfer": {
+ "transaction_id": "Transaction id",
+ "amount": 100.0,
+ "receiver": "Receiver account",
+ "message": "successful",
+ "desc": "Test Api Transfer"
+ },
+ "timestamp": 1589927614388,
+ "status": 200
+}
+```

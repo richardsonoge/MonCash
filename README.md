@@ -31,5 +31,15 @@ Response
  "token_type":"bearer",
  "expires_in":59,
  "scope":"read,write",
- "jti":"t
+ "jti":"the jti"
+}
 ```
+ 
+# Create Payment
+To create a payment you must send the orderId and amount as HTTP POST with an
+Authorization Bearer Token. The response will be a JSON (or other format) with the
+parameters success and redirect URL to load the Payment Gateway of Moncash
+Middleware.
+ 
+# Sample Create Payment
+##  POST /v1/CreatePayment

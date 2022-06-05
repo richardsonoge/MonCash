@@ -21,4 +21,4 @@ If everything worked for you in the test version, you can now use the live perfo
 # COntact
 For any questions, you can contact me right here: richardsonoge@bloggors.com
 # Support
- A big thank you to [Bloggors]([bloggors.com]([www.bloggors.com](http://www.bloggors.com))) for their support of the integration of the MonCash API.
+ A big thank you to [Bloggors](http://www.bloggors.com) for their support of the integration of the MonCash API.

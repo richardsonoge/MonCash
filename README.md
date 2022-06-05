@@ -142,3 +142,5 @@ Response
  "status": 200
 }
 ```
+# Support
+ A big thank you to [Bloggors](https://www.bloggors.com) for their support of the integration of the MonCash API.
